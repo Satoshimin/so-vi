@@ -1,3 +1,5 @@
+#!/user/bin/python3
+
 def dodawanie(a,b):
 	return a + b
 
@@ -13,10 +15,7 @@ def dzielenie(a,b):
 	else:
 		return "Nie mozna dzielic przez zero"
 
-liczba1 = float(input("Podaj pierwsza liczbe: "))
-liczba2 = float(input("Podaj druga liczbe: "))
-
-print("Dodawanie: ", dodawanie(liczba1, liczba2))
-print("Odejmowanie: ", odejmowanie(liczba1, liczba2))
-print("Mnozenie: ", mnozenie(liczba1, liczba2))
-print("Dzielenie: ", dzielenie(liczba1, liczba2))
+print("Dodawanie: ", dodawanie(2, 2))
+print("Odejmowanie: ", odejmowanie(2, 2))
+print("Mnozenie: ", mnozenie(2, 2))
+print("Dzielenie: ", dzielenie(2, 2))
